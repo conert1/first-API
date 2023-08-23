@@ -1,21 +1,17 @@
 {
-  "name": "first-api",
+  "name": "api",
   "version": "1.0.0",
-  "description": "first api",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "devStart": "nodemon server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/conert1/first-API.git"
-  },
-  "author": "conert",
+  "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/conert1/first-API/issues"
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.4.3"
   },
-  "homepage": "https://github.com/conert1/first-API#readme",
   "devDependencies": {
     "dotenv": "^16.3.1",
     "nodemon": "^3.0.1"
